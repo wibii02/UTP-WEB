@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio - Hermawan Yogi Wibisono</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <style>
+    body {
+        background: linear-gradient(to left, rgb(48, 48, 48) , black);
+        font-family: 'Poppins', sans-serif;
+    }
+  </style>
+</head>
+<body class="min-h-screen flex flex-col text-white">
+  <!-- Navbar -->
+  <header class="flex justify-between items-center px-8 py-5 bg-transparent">
+    <h1 class="text-xl text-orange-600 font-bold">Portfolio</h1>
+    <nav class="space-x-6 text-sm">
+      <a href="index.html" class="hover:text-orange-400 transition">Home</a>
+      <a href="about.html" class="hover:text-orange-400 transition">About</a>
+      <a href="skills.html" class="hover:text-orange-400 transition">Skills</a>
+      <a href="portfolio.html" class="text-orange-400">Portfolio</a>
+      <a href="contact.html" class="hover:text-orange-400 transition">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Portfolio Section -->
+  <section class="px-8 py-16 bg-transparent flex-grow">
+    <h2 class="text-2xl font-semibold mb-10 text-center">My <span class="text-orange-600">Projects</span></h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div class="bg-gray-800 p-4 rounded shadow">
+        <p class="font-semibold">Project 1</p>
+        <p class="text-sm text-gray-400">Deskripsi singkat proyek pertama.</p>
+      </div>
+      <div class="bg-gray-800 p-4 rounded shadow">
+        <p class="font-semibold">Project 2</p>
+        <p class="text-sm text-gray-400">Deskripsi singkat proyek kedua.</p>
+      </div>
+      <div class="bg-gray-800 p-4 rounded shadow">
+        <p class="font-semibold">Project 3</p>
+        <p class="text-sm text-gray-400">Deskripsi singkat proyek ketiga.</p>
+      </div>
+    </div>
+  </section>
+
+  <hr class="border-t border-orange-600 mx-8 my-16 mb-1" />
+  <!-- Footer -->
+  <footer class="bg-transparent px-8 py-10">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 text-sm text-gray-400">
+
+      <div>
+        <h3 class="text-orange-600 text-lg font-semibold mb-2">Sosial Media</h3>
+        <ul class="space-y-2">
+          <li><a href="https://www.instagram.com/wiibbii._" target="_blank" class="hover:text-orange-400 transition">Instagram</a></li>
+          <li><a href="https://www.tiktok.com/@aquaboy.y" target="_blank" class="hover:text-orange-400 transition">TikTok</a></li>
+          <li><a href="https://github.com/wibii02" target="_blank" class="hover:text-orange-400 transition">GitHub</a></li>
+        </ul>
+      </div>
+
+      <div class="md:text-right">
+        <h3 class="text-orange-600 text-lg font-semibold mb-2">Contact</h3> 
+        <ul class="space-y-2">
+          <li><a href="mailto:wibihegi02@gmail.com" class="hover:text-orange-400 transition">Email</a></li>
+          <li><a href="https://wa.me/6282269799561" target="_blank" class="hover:text-orange-400 transition">WhatsApp</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="mt-8 text-center text-gray-500 text-xs">
+      &copy; 2025 Hermawan Yogi Wibisono. All rights reserved.
+    </div>
+  </footer>
+</body>
+</html>
